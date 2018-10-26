@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "webdeveloperpcpl\\test\\": "src"
+      "webdeveloperpcpl\\test\\": "src/"
     }
   },
   "extra": {
