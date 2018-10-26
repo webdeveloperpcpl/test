@@ -20,11 +20,6 @@
     }
   },
   "extra": {
-    "laravel": {
-      "providers": [
-        "webdeveloperpcpl\\test\\ConsoleServiceProvider"
-      ]
-    },
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }
