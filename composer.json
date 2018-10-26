@@ -19,4 +19,6 @@
   "autoload": {
     "files": ["src/test.php"]
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
