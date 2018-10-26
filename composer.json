@@ -1,0 +1,34 @@
+{
+  "name": "webdeveloperpcpl/test",
+  "description": "testing...",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Piotr Kowalczyk",
+      "email": "kontakt@webdeveloper.pcp.pl",
+      "homepage": "http://webdeveloper.pc.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.3",
+  },
+  "autoload": {
+    "psr-4": {
+      "Nwidart\\Modules\\": "src"
+    },
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nwidart\\Modules\\Tests\\": "tests",
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
