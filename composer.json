@@ -14,8 +14,13 @@
     "php": ">=7.1"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "HelloWorld": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
     }
   }
 }
