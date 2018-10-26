@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 use File;
 use ZipArchive;
 
-class unpackArchive extends Command
+class UnpackArchive extends Command
 {
     /**
      * The name and signature of the console command.

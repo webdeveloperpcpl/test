@@ -3,7 +3,7 @@
 namespace Webdeveloperpcpl\Test;
 
 use Illuminate\Support\ServiceProvider;
-use webdeveloperpcpl\test\Commands\unpackArchive;
+use Webdeveloperpcpl\Test\Console\Commands\UnpackArchive;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -15,7 +15,7 @@ class ConsoleServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        unpackArchive::class,
+        UnpackArchive::class,
     ];
 
     /**
