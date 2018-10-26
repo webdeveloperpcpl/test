@@ -1,6 +1,6 @@
 <?php
 
-namespace webdeveloperpcpl\test\Console\Commands;
+namespace Webdeveloperpcpl\Test\Console\Commands;
 
 use Illuminate\Console\Command;
 use File;

@@ -1,5 +1,5 @@
 <?php
-namespace webdeveloperpcpl\test\HelloWorld;
+namespace Webdeveloperpcpl\Test\HelloWorld;
 class SayHello
 {
     public static function world()

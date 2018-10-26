@@ -1,6 +1,6 @@
 <?php
 
-namespace webdeveloperpcpl\test\Providers;
+namespace Webdeveloperpcpl\Test;
 
 use Illuminate\Support\ServiceProvider;
 use webdeveloperpcpl\test\Commands\unpackArchive;

@@ -16,13 +16,13 @@
   },
   "autoload": {
     "psr-4": {
-      "webdeveloperpcpl\\test\\": "src/"
+      "Webdeveloperpcpl\\Test\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "webdeveloperpcpl\\test\\ConsoleServiceProvider"
+        "Webdeveloperpcpl\\Test\\ConsoleServiceProvider"
       ]
     },
     "branch-alias": {
