@@ -1,10 +1,6 @@
 {
   "name": "webdeveloperpcpl/test",
-  "description": "testing...",
-  "keywords": [
-    "test"
-  ],
-  "license": "MIT",
+  "description": "My first Composer project",
   "authors": [
     {
       "name": "Piotr Kowalczyk",
@@ -13,17 +9,13 @@
       "role": "Developer"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=7.1"
   },
   "autoload": {
-    "files": ["src/test.php"]
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.0.1"
+    "psr-0": {
+      "HelloWorld": "src/"
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
