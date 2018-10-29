@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Request;
 use Webdeveloperpcpl\Test\Task;
 
-class TodolistController extends Controller
+class TestController extends Controller
 {
     public function index()
     {
