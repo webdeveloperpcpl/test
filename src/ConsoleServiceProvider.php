@@ -24,6 +24,7 @@ class ConsoleServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands($this->commands);
+        $this->app->make('webdeveloperpcpl\test\TestController');
     }
 
     /**
@@ -34,5 +35,15 @@ class ConsoleServiceProvider extends ServiceProvider
         $provides = $this->commands;
 
         return $provides;
+    }
+
+    public function boot()
+    {
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadMigrationsFrom(__DIR__.'/migrations');
+        $this->loadViewsFrom(__DIR__.'/views', 'test');
+        $this->publishes([
+            __DIR__.'/views' => base_path('resources/views/webdeveloperpcppl/test'),
+        ]);
     }
 }
