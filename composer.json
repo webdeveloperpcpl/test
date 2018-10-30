@@ -30,7 +30,7 @@
       ]
     },
     "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "dev-master": "1.0"
     },
     "post-install-cmd": [
       "php artisan vendor:publish --tag=public"
