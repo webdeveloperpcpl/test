@@ -11,6 +11,6 @@ class TestController extends Controller
     public function index()
     {
 
-        return view('webdeveloperpcpl.test.list');
+        return view('test::list');
     }
 }
