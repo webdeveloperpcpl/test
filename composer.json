@@ -31,10 +31,10 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-package-install": [
       "php artisan vendor:publish --tag=public"
     ],
-    "post-update-cmd": [
+    "post-package-update": [
       "php artisan vendor:publish --tag=public"
     ]
   }
