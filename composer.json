@@ -12,7 +12,8 @@
   "license": "MIT",
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "laravel/framework": "~5.7"
   },
   "autoload": {
     "psr-4": {
@@ -37,5 +38,8 @@
     "post-update-cmd": [
       "php artisan vendor:publish --tag=public"
     ]
+  },
+  "scripts": {
+    "test": "php -v"
   }
 }
