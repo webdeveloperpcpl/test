@@ -24,7 +24,7 @@ class ConsoleServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands($this->commands);
-        $this->app->make('webdeveloperpcpl\test\TestController');
+        $this->app->make('Webdeveloperpcpl\Test\TestController');
     }
 
     /**
