@@ -44,7 +44,7 @@ class ConsoleServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'test');
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/webdeveloperpcppl/test'),
-        ]);
+        ], 'public');
         $this->publishes([
             __DIR__.'/assets' => public_path('vendor/test'),
         ], 'public');
