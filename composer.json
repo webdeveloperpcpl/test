@@ -29,7 +29,7 @@
         ],
         "post-package-update": [
             "php artisan vendor:publish --tag=public"
-        ],
+        ]
    },   
   "extra": {
     "laravel": {
