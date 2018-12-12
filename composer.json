@@ -24,12 +24,9 @@
     }
   },
    "scripts": {
-        "post-package-install": [
+        "post-update-cmd": [
             "php artisan vendor:publish --tag=public"
-        ],
-        "post-package-update": [
-            "php artisan vendor:publish --tag=public"
-        ]
+        ]        
    },   
   "extra": {
     "laravel": {
