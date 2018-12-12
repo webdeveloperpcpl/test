@@ -4,6 +4,7 @@ namespace Webdeveloperpcpl\Test;
 
 use Illuminate\Support\ServiceProvider;
 use Webdeveloperpcpl\Test\Console\Commands\UnpackArchive;
+use Artisan;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -48,5 +49,7 @@ class ConsoleServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/assets' => public_path('vendor/test'),
         ], 'public');
+        Artisan::call('asset:publish', array('--bench' => 'webdeveloperpcpl/test'));
+        
     }
 }
